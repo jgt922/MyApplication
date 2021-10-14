@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_700"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvGrados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="123dp"
+        android:text="@string/texto_grados"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="80sp" />
+
+    <TextView
+        android:id="@+id/tvCiudad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvGrados"
+        android:layout_marginTop="26dp"
+        android:text="@string/texto_ciudad"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvEstatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvCiudad"
+        android:layout_marginTop="43dp"
+        android:text="@string/texto_estatus"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+</RelativeLayout>

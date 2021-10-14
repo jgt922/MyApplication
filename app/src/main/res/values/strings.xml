@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AppClima</string>
+    <string name="texto_grados">23º</string>
+    <string name="texto_ciudad">Santander</string>
+    <string name="texto_estatus">Nublado</string>
+    <string name="texto_bienvenida">Bienvenido a mi App del clima. Escoja una ciudad para conocer el clima.</string>
+    <string name="texto_boton">Clima ciudad Santander</string>
+    <string name="texto_boton1">Clima ciudad Madrid</string>
+</resources>
